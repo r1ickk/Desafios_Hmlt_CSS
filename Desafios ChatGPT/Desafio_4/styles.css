@@ -1,0 +1,21 @@
+body{
+    background-color: #ccc;
+    text-align: center; /* Centraliza tudo dentro do body em linha */
+}
+
+button{
+    background-color: #3498db;  /* Cor de fundo */
+  color: white;              /* Cor do texto */
+  padding: 10px 20px;        /* Espaçamento interno */
+  border: none;              /* Remove a borda padrão */
+  border-radius: 8px;        /* Bordas arredondadas */
+  cursor: pointer;           /* Muda o cursor para mãozinha */
+  font-size: 16px;           /* Tamanho do texto */
+   display: block;    /* Transforma em bloco */
+  margin: 20px auto; /* Centraliza horizontalmente */
+}
+
+/* Efeito quando o mouse passa por cima */
+button:hover {
+  background-color: #2980b9; /* Muda a cor */
+}
