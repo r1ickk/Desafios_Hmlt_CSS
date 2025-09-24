@@ -1,0 +1,18 @@
+body{
+    /* Centralizar no meio da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#pfp div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;      /* deixa a imagem redonda */
+    /* object-fit: cover;       corta sem deformar */
+    margin-bottom: 15px;
+}
