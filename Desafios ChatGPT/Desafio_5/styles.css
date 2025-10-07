@@ -1,18 +1,75 @@
-body{
-    /* Centralizar no meio da tela */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ocupa a altura total da tela */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
-    font-family: arial, sans-serif;
-    background-color: #f0f0f0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
 }
 
-#pfp div{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;      /* deixa a imagem redonda */
-    /* object-fit: cover;       corta sem deformar */
-    margin-bottom: 15px;
+/* Reset de página simples */
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    /* tamanho fixo, evita que tudo se comprima */
+}
+
+img {
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 5px solid black; Usado para identificar o limite da imagem*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome {
+    /* border: 5px solid black; */
+    font-size: 0.7rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #505050;
+    padding-bottom: 1rem;
+}
+
+/* .login {
+    border: 5px solid black;
+} */
+
+label{
+    font-size: 1rem;
+}
+
+input[type="password"] {
+  /* width: 250px;            largura */
+  padding: 5px;           /* espaçamento interno */
+  border: 1px solid #ccc;  /* borda */
+  border-radius: 8px;      /* cantos arredondados */
+  font-size: 16px;         /* tamanho da fonte */
+  outline: none;           /* remove a borda azul ao clicar */
+  transition: 0.3s;        /* animações suaves */
+}
+
+/* Efeito quando o campo está em foco */
+input[type="password"]:focus {
+  border-color: #ffffff;   /* muda a cor da borda */
+  box-shadow: 0 0 5px #000000; /* brilho suave */
 }

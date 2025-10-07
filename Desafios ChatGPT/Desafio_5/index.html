@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html lang="pr-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foto de perfil</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<html lang="pt-br">
 
-  <body>
-    <header>
-      <div id="pfp">
-        <img id="pfp_picture" src="Foto de perfil.PNG" alt="foto de perfil" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 5 - Card page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="picture">
+      <img src="Satoru_Gojo.jpg" alt="card-page">
+    </div>
+
+    <div class="welcome">
+
+      <h1> Bem vindo Ricardo!</h1>
+      <div>
+        <p>Informe a sua senha:</p>
       </div>
 
-      <div id="about_me">
-        <h1>Ricardo Pereira</h1>
-        <p>Um pequeno desenvolvedor front-end</p>
+      <div class="login">
+        <form>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+        </form>
       </div>
-    </header>
-  </body>
+    </div>
+  </section>
+
+</body>
+
 </html>
