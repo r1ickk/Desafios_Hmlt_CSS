@@ -1,0 +1,12 @@
+2. Mini Portfólio (HTML semântico)
+
+Objetivo: Criar um arquivo index.html com:
+
+<header> com seu nome;
+
+<section> “Sobre mim”;
+
+<section> “Projetos”;
+
+<footer> com seu e-mail.
+🧩 Treinar tags semânticas.

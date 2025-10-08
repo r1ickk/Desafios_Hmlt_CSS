@@ -1,0 +1,9 @@
+5. Cartão de Perfil
+
+Objetivo: Criar um "cartão" centralizado com:
+
+Foto de perfil circular;
+
+Nome e descrição abaixo;
+
+Sombra (box-shadow) na borda.

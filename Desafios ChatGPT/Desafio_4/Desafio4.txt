@@ -1,0 +1,11 @@
+4. Botão Personalizado
+
+Objetivo: Criar um botão estilizado com CSS:
+
+Cor de fundo e texto diferentes;
+
+Bordas arredondadas;
+
+Efeito hover (muda de cor ao passar o mouse);
+
+Centralizar o botão.

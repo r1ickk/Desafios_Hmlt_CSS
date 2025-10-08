@@ -1,0 +1,12 @@
+3. Estilizando Títulos e Parágrafos
+
+Objetivo (CSS):
+
+Mudar cor de fundo da página;
+
+Trocar fonte dos títulos e textos;
+
+Centralizar o título principal;
+
+Justificar os parágrafos.
+🧩 Primeiro desafio com CSS.

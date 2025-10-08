@@ -1,0 +1,14 @@
+1. Página de Apresentação
+
+Objetivo: Criar uma página simples com:
+
+Um título principal (<h1>);
+
+Um parágrafo (<p>) descrevendo você;
+
+Uma lista não ordenada (<ul>) com 3 hobbies seus;
+
+Uma imagem (<img>);
+
+Um link (<a>) para algum site que você gosta.
+🧩 Somente HTML neste desafio (sem CSS).
