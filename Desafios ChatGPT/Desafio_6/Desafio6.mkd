@@ -1,0 +1,9 @@
+6. Menu de Navegação
+
+Objetivo: Criar um menu no topo da página com:
+
+Lista horizontal (<ul> + <li> + <a>);
+
+Links estilizados como botões;
+
+Efeito de hover.

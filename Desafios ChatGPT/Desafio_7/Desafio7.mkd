@@ -1,0 +1,10 @@
+7. Layout com Divs
+
+Objetivo: Criar um layout com 3 colunas:
+
+Esquerda = menu;
+
+Centro = conteúdo;
+
+Direita = informações extras.
+Usar display: flex; ou float; para organizar.
